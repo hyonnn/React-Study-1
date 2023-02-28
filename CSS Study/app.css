@@ -9,13 +9,16 @@ body {
 button {
     font-size: 30px;
     background-color: #a8dadc;
+    border-radius: 10px;
+    width: 14%;
+    height: 6%;
 }
 
 h1,h2 {
     color: #1d3557;
 }
 
-#signup{
+#signup {
     background-color: #1d3557;
     color: #f1faee;
 }
@@ -28,6 +31,8 @@ span {
     background-color: #e63946;
     color: #f1faee;
     font-size: 16px;
+    letter-spacing: 2px;
+    
 }
 
 .post a {
@@ -67,7 +72,7 @@ a[href*="google"]{
 }
 
 .post:nth-of-type(2n){
-    background-color: #dfe8dc;
+    background-color: #d6dcd3;
 }
 
 h2::first-letter {
@@ -89,8 +94,6 @@ p::selection {
 
 button:hover {
     background-color: olive;
-}
-
-button {
-    background-color: magenta !important;
+    width: 13%;
+    height: 5%;
 }
